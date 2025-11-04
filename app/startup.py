@@ -105,7 +105,7 @@ async def _shutdown_services():
         await image_service.close()
         logger.info("All service connections closed successfully")
         
-    except Exception as.g. as e:
+    except Exception as e:
         logger.error(f"Service shutdown failed: {e}")
 
 
